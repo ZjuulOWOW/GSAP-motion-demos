@@ -1,5 +1,3 @@
-"use client"
-
 import "./style.scss"
 import React, { useEffect } from "react"
 import { useRef } from "react"
