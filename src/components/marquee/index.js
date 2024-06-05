@@ -1,19 +1,13 @@
 import "./style.scss"
 import React, { useEffect } from "react"
 import { useRef } from "react"
-import gsap from "gsap"
 import Image from "next/image"
-import { createMarquee } from "@owowagency/gsap-motion"
 
-export default function Marquee({offset, direction = "scroll"}) {
+export default function Marquee({direction = "scroll"}) {
     const ref = useRef()
+
     useEffect(() => {
-        const targetElement = ref.current
-            createMarquee(targetElement, {
-                speed: 0,
-                scrollVelocity: 0.05,
-                direction: direction,
-            })
+    const targetElement = ref.current
     }, [])
 
     return (
