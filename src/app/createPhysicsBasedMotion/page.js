@@ -1,5 +1,5 @@
-import PBM from "@/components/PBM"
 import Image from "next/image"
+import PBM from "@/components/pbm"
 
 export default function page() {
     return (
@@ -11,8 +11,8 @@ export default function page() {
                     width={240}
                     alt="Placeholder"
                     style={{
-                        top: "200px",
-                        left: "240px",
+                        top: "5vh",
+                        left: "5vw",
                     }}
                 ></Image>
                 <Image
@@ -21,8 +21,8 @@ export default function page() {
                     width={160}
                     alt="Placeholder"
                     style={{
-                        bottom: "160px",
-                        right: "240px",
+                        bottom: "10vh",
+                        right: "5vw",
                     }}
                 ></Image>
             </PBM>
@@ -33,8 +33,8 @@ export default function page() {
                     width={280}
                     alt="Placeholder"
                     style={{
-                        bottom: "320px",
-                        left: "320px",
+                        bottom: "5vw",
+                        left: "15vw",
                     }}
                 ></Image>
                 <Image
@@ -43,18 +43,18 @@ export default function page() {
                     width={320}
                     alt="Placeholder"
                     style={{
-                        top: "240px",
-                        right: "400px",
+                        top: "5vw",
+                        right: "10vw",
                     }}
                 ></Image>
                 <Image
                     src="/assets/placeholder.jpg"
-                    height={400}
+                    height={320}
                     width={480}
                     alt="Placeholder"
                     style={{
-                        bottom: "240px",
-                        right: "480px",
+                        bottom: "10vw",
+                        right: "30vw",
                     }}
                 ></Image>
             </PBM>
@@ -65,8 +65,8 @@ export default function page() {
                     width={240}
                     alt="Placeholder"
                     style={{
-                        bottom: "160px",
-                        left: "640px",
+                        top: "15vh",
+                        right: "35vw",
                     }}
                 ></Image>
                 <Image
@@ -75,8 +75,8 @@ export default function page() {
                     width={160}
                     alt="Placeholder"
                     style={{
-                        top: "560px",
-                        right: "480px",
+                        bottom: "5vh",
+                        left: "45vw",
                     }}
                 ></Image>
                 <Image
@@ -85,8 +85,8 @@ export default function page() {
                     width={320}
                     alt="Placeholder"
                     style={{
-                        top: "400px",
-                        left: "400px",
+                        top: "20vh",
+                        left: "20vw",
                     }}
                 ></Image>
             </PBM>
