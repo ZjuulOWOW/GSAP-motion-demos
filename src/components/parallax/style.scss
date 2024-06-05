@@ -1,7 +1,9 @@
 .parallax-image{
     object-fit: cover;
+    position: absolute;
 }
 
 .owow-parallax-outer{
-    position: absolute;
+    display: flex;
+    justify-content: center;
 }
