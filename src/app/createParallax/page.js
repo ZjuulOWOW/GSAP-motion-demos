@@ -11,6 +11,7 @@ export default function page() {
                 alt="placeholder"
                 height={640}
                 width={560}
+                speed={1}
             />
             <Parallax
                 src="/assets/placeholder.jpg"
@@ -20,6 +21,7 @@ export default function page() {
                 style={{
                     marginRight: "30vw",
                 }}
+                speed={0}
             />
             <Parallax
                 src="/assets/placeholder.jpg"
@@ -29,6 +31,7 @@ export default function page() {
                 style={{
                     marginLeft: "40vw",
                 }}
+                speed={3}
             />
         </main>
     )

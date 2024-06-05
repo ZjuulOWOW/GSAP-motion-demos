@@ -4,11 +4,14 @@ import { useRef } from "react"
 import Image from "next/image"
 import { createParallax } from "@owowagency/gsap-motion"
 
-export default function Parallax({src, alt, height, width, style}) {
+export default function Parallax({src, alt, height, width, style, speed}) {
     const ref = useRef()
 
     useEffect(() => {
         const targetElement = ref.current
+        createParallax(targetElement, {
+            speed: speed
+        })
     }, [])
 
     return (
