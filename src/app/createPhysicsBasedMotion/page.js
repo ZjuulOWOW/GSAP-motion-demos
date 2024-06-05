@@ -4,7 +4,7 @@ import PBM from "@/components/pbm"
 export default function page() {
     return (
         <main>
-            <PBM className="layer layer--bottom" intensity={10}>
+            <PBM className="layer layer--bottom">
                 <Image
                     src="/assets/placeholder.jpg"
                     height={320}
@@ -26,7 +26,7 @@ export default function page() {
                     }}
                 ></Image>
             </PBM>
-            <PBM className="layer layer--middle" intensity={20}>
+            <PBM className="layer layer--middle">
                 <Image
                     src="/assets/placeholder.jpg"
                     height={400}
@@ -58,7 +58,7 @@ export default function page() {
                     }}
                 ></Image>
             </PBM>
-            <PBM className="layer layer--top" intensity={40}>
+            <PBM className="layer layer--top">
                 <Image
                     src="/assets/placeholder.jpg"
                     height={320}
