@@ -4,7 +4,7 @@
 
 Om te analyseren hoeveel tijd het kost om bepaalde animaties te realiseren met gebruik van de animatie library GSAP-motion is er deze test opgezet. Hierbij is het doel om bepaalde animaties na te maken met gebruik van GSAP-motion.
 
-Hierbij kan er gebruik gemaakt worden van de documentatie. Wanneer de documentatie geopend is en er een start is gemaakt aan de animatie zal de timer worden gestart. 
+Hierbij kan er gebruik gemaakt worden van de documentatie. Wanneer de documentatie geopend is en er een start is gemaakt aan de animatie zal de timer worden gestart. Deze timer zal per animatie opnieuw gestart worden. 
 
 De layout en styling voor de animaties zijn al voorbereid, deze moeten alleen geanimeerd worden met JavaScript.
 
@@ -21,12 +21,16 @@ Video's van de eindresultaten zijn te vinden in de folder /public/references. Ne
 
 ## Installatie
 
+‼️ ```git checkout test-case```
+
 ```npm i```
 ```npm run dev```
 
 Zowel in ```/gsap-motion-demos``` als ```/gsap-motion-demos/docs```
 
 ## Locatie
+
+Documentatie kan gevonden worden in /docs
 
 Code kan geschreven worden in ```/src/app``` en ```/src/components```
 
