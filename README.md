@@ -21,8 +21,6 @@ Video's van de eindresultaten zijn te vinden in de folder /public/references. Ne
 
 ## Installatie
 
-‼️ ```git checkout test-case```
-
 ```npm i```
 ```npm run dev```
 
